@@ -182,5 +182,5 @@ for row in Dies:
             writeFile.write(str(column)+'\n')
         else:
             print(urc.getDistance(), ulc.getDistance(), llc.getDistance(), lrc.getDistance())
-
+writeFile.write(str(referDie))
 writeFile.close()
